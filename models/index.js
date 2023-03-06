@@ -19,16 +19,18 @@ Category.hasMany(Product, {
 Product.belongsToMany(Tag, {
   through: {
     model: ProductTag,
+    foreignKey: "product_id",
     unique: false
   },
   // Define an alias for when data is retrieved
   as: 'product_tag1'
 });
 
-// Tags belongToMany Products (through ProductTag)
+// // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
+    foreignKey: "tag_id",
     unique: false
   },
   // Define an alias for when data is retrieved
