@@ -3,7 +3,11 @@
 ## Description
 
 ```md
-This application supports the manager of an internet retail company to track inventory. In order to start the application you must clone the repo, update the .env file with your credentials, log into your mysql shell and source the database, run the the ./seeds/index.js file to seed the database, then run the server using node server.js. Once the server is listening you can see all the routes using insomnia.
+This application supports the manager of an internet retail company to track inventory.
+In order to start the application you must clone the repo, update the .env file with your credentials,
+log into your mysql shell and source the database, run the the ./seeds/index.js file to seed the
+database, then run the server using node server.js.
+Once the server is listening you can see all the routes using insomnia.
 ```
 
 A link to the demo video is below.
