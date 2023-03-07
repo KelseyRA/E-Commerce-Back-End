@@ -4,9 +4,11 @@
 
 ```md
 This application supports the manager of an internet retail company to track inventory. In order to start the application you must clone the repo, update the .env file with your credentials, log into your mysql shell and source the database, run the the ./seeds/index.js file to seed the database, then run the server using node server.js. Once the server is listening you can see all the routes using insomnia.
+```
 
 A link to the demo video is below.
-```
+
+https://drive.google.com/file/d/1ZViC5IuhGFq596pI4lZWjdTiLBriaUni/view?usp=share_link
 
 ## Acceptance Criteria
 
@@ -29,13 +31,13 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Installation
 
 ```md
-This application uses express.js, mysql2, sequelize, node.js, insomnia, dotenv
+This application uses express.js, mysql2, sequelize, node.js, insomnia, and dotenv.
 ```
 
 ## Contributors
 
 ```md
-Kelsey Alderman, Tutor: Matthew Calimbas, UPenn Bootcamp Repo Resources.
+Kelsey Alderman, Tutor: Matthew Calimbas, and UPenn Bootcamp Repo Resources.
 ```
 
 ## Questions
